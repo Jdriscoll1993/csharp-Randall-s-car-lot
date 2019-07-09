@@ -14,7 +14,6 @@ namespace randall_car_lot_csharp
                 {
                     //Vehicle
                     Console.WriteLine("vehicle:");
-                    Console.WriteLine("");
                     Dictionary<string, string> vehicle = new Dictionary<string, string>() {
                     {"year", "2008"},
                     {"model", "damfresh"},
@@ -27,8 +26,8 @@ namespace randall_car_lot_csharp
                     }
 
                     //Sales Agent
-                    Console.WriteLine("salesAgent:");
                     Console.WriteLine("");
+                    Console.WriteLine("salesAgent:");
                     Dictionary<string, string> salesAgent = new Dictionary<string, string>() {
                     {"mobile", "(896) 478-6975"},
                     {"lastName", "damfresh"},
@@ -40,8 +39,8 @@ namespace randall_car_lot_csharp
                     }
 
                     //Credit
-                    Console.WriteLine("credit:");
                     Console.WriteLine("");
+                    Console.WriteLine("credit:");
                     Dictionary<string, string> credit = new Dictionary<string, string>(){
                     {"credit_provider", "J.P.Morgan Chase & Co" },
                     {"account", "601109582720302"}
@@ -53,8 +52,8 @@ namespace randall_car_lot_csharp
                 }
                 {
                     //Vehicle
-                    Console.WriteLine("vehicle:");
                     Console.WriteLine("");
+                    Console.WriteLine("vehicle:");
                     Dictionary<string, string> vehicle = new Dictionary<string, string>() {
                     {"year", "2010"},
                     {"model", "Hotquadtrax"},
@@ -67,8 +66,9 @@ namespace randall_car_lot_csharp
                     }
 
                     //Sales Agent
-                    Console.WriteLine("salesAgent:");
                     Console.WriteLine("");
+                    Console.WriteLine("salesAgent:");
+
                     Dictionary<string, string> salesAgent = new Dictionary<string, string>() {
                     {"mobile", "562.300.2912"},
                     {"lastName", "Davis"},
@@ -80,10 +80,11 @@ namespace randall_car_lot_csharp
                     }
 
                     //Credit
-                    Console.WriteLine("credit:");
                     Console.WriteLine("");
+                    Console.WriteLine("credit:");
+
                     Dictionary<string, string> credit = new Dictionary<string, string>(){
-                    {"credit_provider", "PNC Financial Services" },
+                    {"credit_provider", "PNC Financial Services`" },
                     {"account", "34578280562836"}
                 };
                     foreach (KeyValuePair<string, string> kvp in credit)
